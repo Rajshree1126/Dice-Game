@@ -16,3 +16,6 @@ else if(b>a)
 else {
   document.querySelector("h1").innerHTML = "Tie";
 }
+document.querySelector("button").onclick = function(){
+  location.reload();
+}
