@@ -32,10 +32,22 @@ img {
   width: 80%;
 }
 
-footer {
-  margin-top: 5%;
-  color: #EEEEEE;
-  text-align: center;
-  font-family: 'Indie Flower', cursive;
-
+button {
+  background-color: #4ecca3;
+  color: black;
+  font-size: 1.2rem; /* Slightly larger */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto; /* Centers the button */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 50px;
 }
+
+button:hover {
+  background-color: #3ca98b;
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
